@@ -1,0 +1,18 @@
+{
+  "name": "product-fruits",
+  "version": "0.1.0",
+  "description": "Analyze Product Fruits workspaces, content, users, and adoption data.",
+  "author": {
+    "name": "Product Fruits"
+  },
+  "homepage": "https://help.productfruits.com/en/article/product-fruits-mcp-connection",
+  "repository": "https://github.com/product-fruits/skills-product-fruits",
+  "license": "MIT",
+  "keywords": [
+    "product-fruits",
+    "product-adoption",
+    "analytics",
+    "mcp"
+  ],
+  "mcpServers": "./.mcp.json"
+}

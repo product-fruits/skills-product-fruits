@@ -1,0 +1,37 @@
+{
+  "name": "product-fruits",
+  "version": "0.1.0",
+  "description": "Analyze Product Fruits workspaces, content, users, and adoption data.",
+  "author": {
+    "name": "Product Fruits",
+    "url": "https://productfruits.com/"
+  },
+  "homepage": "https://help.productfruits.com/en/article/product-fruits-mcp-connection",
+  "repository": "https://github.com/product-fruits/skills-product-fruits",
+  "license": "MIT",
+  "keywords": [
+    "product-fruits",
+    "product-adoption",
+    "analytics",
+    "mcp"
+  ],
+  "skills": "./skills/",
+  "mcpServers": "./.mcp.json",
+  "interface": {
+    "displayName": "Product Fruits",
+    "shortDescription": "Analyze product adoption data",
+    "longDescription": "Connect to Product Fruits and turn workspace, content, flow, survey, knowledge base, Elvin, and user data into concise insights.",
+    "developerName": "Product Fruits",
+    "category": "Productivity",
+    "capabilities": [
+      "Read",
+      "Analyze"
+    ],
+    "websiteURL": "https://productfruits.com/",
+    "defaultPrompt": [
+      "Give me an overview of my Product Fruits workspace.",
+      "Which onboarding flow should I investigate first?",
+      "Summarize recent Product Fruits adoption signals."
+    ]
+  }
+}

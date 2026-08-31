@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "product-fruits": {
+      "type": "http",
+      "url": "https://my.productfruits.com/mcp"
+    }
+  }
+}
