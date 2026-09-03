@@ -1,0 +1,17 @@
+{
+  "name": "product-fruits",
+  "owner": {
+    "name": "Product Fruits",
+    "url": "https://productfruits.com"
+  },
+  "metadata": {
+    "description": "Product Fruits plugins for workspace and adoption analysis."
+  },
+  "plugins": [
+    {
+      "name": "product-fruits",
+      "source": "./plugin",
+      "description": "Analyze Product Fruits workspaces, content, users, and adoption data."
+    }
+  ]
+}
